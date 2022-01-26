@@ -1,9 +1,10 @@
 #!/bin/bash
 
-startDate=`date +"%Y%m%d" -d "20190101"`
+startDate=`date`
 
 while :
 do
+	echo $startDate
 	echo $startDate > "$startDate.txt"
 	git add .
 	git commit -m "AGC_tst"
