@@ -4,7 +4,7 @@ startDate=`date`
 
 while :
 do
-	echo $startDate
+	echo -e "\033[31m$startDate\033[0m"
 	echo $startDate > "$startDate.txt"
 	git add .
 	git commit -m "AGC_tst"
