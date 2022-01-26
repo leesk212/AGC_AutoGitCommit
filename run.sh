@@ -8,5 +8,6 @@ do
 	git add .
 	git commit -m "AGC_tst"
 	git push
-	rm test.txt
+	rm "$startDate.txt"
+	sleep 3h
 done
