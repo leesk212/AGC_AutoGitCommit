@@ -1,9 +1,9 @@
 #!/bin/bash
 
-startDate=`date`
 
 while :
 do
+	startDate=`date`
 	echo -e "\033[31m$startDate\033[0m"
 	echo $startDate > "$startDate.txt"
 	git add .
