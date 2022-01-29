@@ -9,5 +9,5 @@ do
 	git commit -m "AGC_tst"
 	git push
 	rm "$startDate.txt"
-	sleep 540
+	sleep 10800
 done
