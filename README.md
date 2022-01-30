@@ -1,6 +1,9 @@
 # AGC_AutoGitCommit
 Are you want to get forest in your GitHome? Take my code and run in background.
 
+## Consideration
+* On some types of machines, the only unit of time supported is *seconds*
+
 ## Idea
 1. Make the commit of your repository happen through git fork.
 
