@@ -7,7 +7,7 @@ do
 	echo $startDate > "$startDate.txt"
 	git pull
 	git add .
-	git commit -m "AGC_tst"
+	git commit -m "$startDate"
 	git push
 	rm "$startDate.txt"
 	sleep 10800
