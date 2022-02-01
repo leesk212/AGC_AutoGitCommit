@@ -1,5 +1,5 @@
 # AGC_AutoGitCommit
-Are you want to get forest in your GitHome? Take my code and run in background.
+Do you want to get forest in your GitHome? Take my code and run in background.
 
 ## Consideration
 * On some types of machines, the only unit of time supported is *seconds*
